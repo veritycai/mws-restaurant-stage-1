@@ -19,7 +19,7 @@
       <h1><a href="/">Restaurant Reviews</a></h1>
     </nav>
     <!-- Beginning breadcrumb -->
-    <ul id="breadcrumb" >
+    <ul id="breadcrumb" aria-label="A Breadcrumb Navigator" >
       <li id="home"><a href="/">Home</a></li>
     </ul>
     <!-- End breadcrumb -->
@@ -31,7 +31,7 @@
   <main id="maincontent">
     <!-- Beginning restaurant -->
     <section id="restaurant-container" tabindex="0"><!--阅读餐厅详情、营业时间等内容-->
-      <h1 id="restaurant-name"></h1>
+      <h2 id="restaurant-name"></h2>
       <img id="restaurant-img">
       <p id="restaurant-cuisine"></p>
       <p id="restaurant-address"></p>
@@ -46,7 +46,7 @@
     <a href ="/" class="skip-link">Skip to home</a><!--跳过地图部分回到主页面-->
     <!-- Beginning map -->
     <section id="map-container">
-      <div id="map"></div>
+      <div id="map" role="application"></div>
     </section>
     <!-- End map -->
   </main>
